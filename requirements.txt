@@ -1,0 +1,30 @@
+# Core Framework - Lightweight
+streamlit==1.47.1
+python-dotenv==1.1.1
+
+# PDF Processing - Lightweight alternatives
+pypdf==4.0.1  # Much smaller than PyPDF2
+
+# AI/ML - Minimal dependencies
+openai==1.97.1
+tiktoken==0.9.0
+
+# Vector Store - Lightweight alternatives
+# Using scikit-learn instead of FAISS for smaller footprint
+scikit-learn==1.5.2
+numpy==1.26.4
+
+# Production Dependencies - Minimal
+gunicorn==21.2.0
+
+# Logging - Lightweight
+structlog==23.2.0
+
+# Security - Minimal
+# cryptography==41.0.7  # Removed - not needed for basic functionality
+
+# Google Cloud - Only if needed
+google-cloud-storage==2.10.0
+
+# Additional lightweight utilities
+requests==2.32.3
